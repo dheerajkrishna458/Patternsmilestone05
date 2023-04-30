@@ -1,8 +1,12 @@
 package com.dheerajvinyasalu.DMS.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+
 
 @Entity
 public class Dog {
@@ -22,6 +26,7 @@ public class Dog {
 		return name;
 	}
 	public void setName(String name) {
+		
 		this.name = name;
 	}
 	public String getBreed() {
